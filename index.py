@@ -86,7 +86,7 @@ def main():
     NovaLogger.config(log_file="status_rotator.log")
     NovaLogger.note("Starting Discord Status Rotator")
 
-    with open('config.json') as f:
+    with open('input/config.json') as f:
         config = json.load(f)
         interval = config.get('interval', 60)
         proxyless = config.get('proxyless', False)
