@@ -2,8 +2,6 @@
 
 A Python script to automatically rotate custom statuses on multiple Discord accounts.
 
-![Banner](https://i.imgur.com/your-image.png) <!-- Replace with an actual image if needed -->
-
 ## Features
 - Rotate custom statuses on multiple Discord accounts.
 - Supports proxies for account security.
